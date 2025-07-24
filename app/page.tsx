@@ -5,7 +5,7 @@ import WhatsappButton from "@/components/whatsapp-button"
 import { useState } from "react"
 
 export default function Home() {
-  const targetDate = new Date("2025-07-23T21:58:00")
+  const targetDate = new Date("2025-07-25T18:30:00")
   const [openQuestion, setOpenQuestion] = useState<number | null>(null)
 
   const faqItems = [
